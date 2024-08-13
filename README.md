@@ -1,13 +1,13 @@
 # SMReplace
  CLI tool to find and replace file paths in Soundminer SQLITE databases.  
 
-### USE AT YOUR OWN RISK I OFFER NO SUPPORT OF ANY KIND
-### THIS LITERALLY CHANGES RECORDS IN YOUR DATABASE, SO I ADVISE YOU NEVER USE IT UNLESS YOU ARE VERY CERTAIN
+##### USE AT YOUR OWN RISK I OFFER NO SUPPORT OF ANY KIND
+##### THIS LITERALLY CHANGES RECORDS IN YOUR DATABASE, SO I ADVISE YOU NEVER USE IT UNLESS YOU ARE VERY CERTAIN
 
-Usage: 
+### USAGE: 
     `SMReplace "search text" "replacement text" <database> [options]`
 
-Installation:
+### INSTALLATION:
     Download the binary or compile it.  I recommend moving it to your Soundminer Databases folder.
     If you don't know where your Soundminer Databases folder is, you probalby should not use this program
 
