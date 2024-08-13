@@ -222,7 +222,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 fn print_help() {
     let help_message = "
-    Usage: SMReplace <search_text> <replacement_text> <database> [options]
+    Usage: SMReplace \"search_text\" \"replacement_text\" <database> [options]
     
     Options:
     -c, --column <column>          Select Column to Search and Replace if you want to modify something other than FilePath
