@@ -1,8 +1,9 @@
+#![allow(non_snake_case)]
 use rusqlite::{Connection, Result};
 // use std::collections::HashSet;
 use std::env;
 // use std::fs::{self, File};
-use std::io::{self, BufRead, Write};
+use std::io::{self};
 use std::path::Path;
 use std::error::Error;
 
