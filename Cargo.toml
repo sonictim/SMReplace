@@ -1,9 +1,8 @@
 [package]
 name = "SMReplace"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-rusqlite = "0.26.0"
+tokio = { version = "1.40", features = ["full"] }
+sqlx = { version = "0.6", features = ["sqlite", "runtime-tokio-native-tls"] }
